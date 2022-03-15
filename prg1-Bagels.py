@@ -25,7 +25,7 @@ def main():
         # переменная в которой хранится секретное число
         secretNum = getSecretNum()
         print("Я загадал число.")
-        print("У тебя есть {} попыток угадать его.".format(MAX_GUESSES))
+        print("У Вас есть {} попыток угадать его.".format(MAX_GUESSES))
 
         numGuesses = 1
         while numGuesses <= MAX_GUESSES:
@@ -44,7 +44,7 @@ def main():
                 print("Предположения закончились")
                 print("Правильный ответ {}.".format(secretNum))
         # Спрашиваем о доп. игре
-        print("Хочешь сыграть еще ? (yes or no)")
+        print("Хотите сыграть еще ? (yes or no)")
         if not input("> ").lower().startswitch("y"):
             break
     print("Спасибо за игру!")
