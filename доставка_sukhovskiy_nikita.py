@@ -159,7 +159,7 @@ accesses = {'host': 'rc1c-fhrb9f1e0l9g611h.mdb.yandexcloud.net',
             'password': 'HRanalytics'
                     }
 
-!pip install psycopg2-binary
+#!pip install psycopg2-binary
 
 import psycopg2
 
@@ -371,7 +371,7 @@ count_true_early_delivery_stores
 
 fig, ax = plt.subplots()
 
-plt.title('Абсолютное количестов ранник заказов по городам, шт', size = 18)
+plt.title('Абсолютное количестов ранних заказов по городам, шт', size = 18)
 plt.xlabel('ID города', size = 12)
 plt.ylabel('Количество ранних доставок', size = 12)
 plt.grid()
